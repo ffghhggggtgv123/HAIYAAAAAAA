@@ -29,14 +29,14 @@ client.on('ready', async () => {
   setInterval(() => {
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
 
-    const change = ['https://cdn.discordapp.com/attachments/1199386824582373516/1202226252967333908/feac57129dbae1df38a8e098ed88bcce.png?ex=65e85ef2&is=65d5e9f2&hm=da3b605d9d274069b28f93bab277e7057d1614a7dadf0bcbf7978ebffce2478c&'];
-    const poop = ['https://media.discordapp.net/attachments/889976848581287946/1192463032610193610/a_f3bcc76b8af98fb87ab30d8d82376ac0.gif?ex=65e9c43d&is=65d74f3d&hm=41dfdde129cfc0d8b2b2f3db3d010cebf19747865f64ebd6f936dd75dd61d1d9&=&width=350&height=350'];
-    const change2 = ['มีบอทเจ๋งๆ ', 'มีเม็ดม่วง', 'AAAA', 'Love na'];
+    const change = ['https://media.discordapp.net/attachments/1160072155476795392/1220979139192946730/gojo-satoru-gojo.gif?ex=6610e86f&is=65fe736f&hm=22a9cdf54b91058d5c01dfc6d9c479790194d9d58795d5b9edf96d48d9c52e00&=&width=467&height=262'];
+    const poop = ['https://media.discordapp.net/attachments/1160072155476795392/1220978941230055464/2Q.png?ex=6610e840&is=65fe7340&hm=03da98bb2d5eb8d3cda88709ccbc9d6303a4e722ced29135da2897798b5fc84a&=&format=webp&quality=lossless&width=200&height=188'];
+    const change2 = ['HI ', 'My name', 'is', 'queencat'];
     const change3 = ['⏰', '⏰', '⏰', '⏰'];
-    const iooi = ['୧₊˚❤️・Itzlevy ・꒱', '〝📦〞Stream Twitch Free', '〝📦〞Free access 200 room+'];
-    const iiio = ['https://discord.gg/aqt6thEVV7'];
-    const yyyt = ['⏰₊꒷ Join discord ˳ʚ', '⏰₊꒷ Join discord ˳ʚ', '⏰₊꒷ Join discord ˳ʚ'];
-    const ddds = ['https://discord.gg/aqt6thEVV7'];
+    const iooi = ['Join Ntts discord', '〝✅〞Join ntts discord', '〝✅〞Still join ntts discord'];
+    const iiio = ['https://discord.gg/ntts'];
+    const yyyt = ['Sub to ntts ig', 'Sub to him lol', 'ok sub now'];
+    const ddds = ['https://www.youtube.com/NoTextToSpeech?sub_confirmation=1'];
 
     // Randomize data
     const tyyy = yyyt[Math.floor(Math.random() * yyyt.length)];
@@ -54,7 +54,7 @@ client.on('ready', async () => {
       .setType('LISTENING')
       .setURL('https://youtu.be/xTZk2G9-6co?si=xpE-kzJivOITFzmQ')
       .setState(`${dwada}`)
-      .setName(`levy`)
+      .setName(`Hi`)
       .setDetails(`${ap}${getTime()} ${moment().format('- DD/MM/YYYY')}`)
       .setAssetsSmallImage(`${popp}`)
       .setAssetsLargeImage(`${ssss}`)
@@ -65,7 +65,7 @@ client.on('ready', async () => {
       .setStartTimestamp(Date.now())
       .setEndTimestamp(Date.now());
 
-    client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
+    client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
     client.user.setActivity(r);
   }, 2 * 1000);
 
